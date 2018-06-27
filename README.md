@@ -1,2 +1,2 @@
 # slackbot-coffee
-A python made bot/script for slack that let's you know when coffee is ready
+A slackbot made with Python that listens a specified button in the keyboard that executes the script. This script sends two messages in a specified channed in Slack. First a normal message followed by 10min sleep function and after the 10 minutes is over, another message.
