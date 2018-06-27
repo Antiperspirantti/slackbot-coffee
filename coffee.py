@@ -4,7 +4,7 @@ import time
 
 from slackclient import SlackClient
 
-#Replace 'X' with you'r slack token
+#Replace 'X' with your slack token
 slack_token = "xxxxxxxxxxxxxxxx"
 sc = SlackClient(slack_token)
 
@@ -18,7 +18,6 @@ while True:
                 print('Enter key pressed!')
                 sc.api_call(
                 "chat.postMessage",
-                #channel="xxxxxx",
                 channel = channel,
                 username = user,
                 icon_emoji = icon,
@@ -29,7 +28,6 @@ while True:
 
                 sc.api_call(
                 "chat.postMessage",
-                #channel="xxxxxx",
                 channel = channel,
                 username = user,
                 icon_emoji = icon,
